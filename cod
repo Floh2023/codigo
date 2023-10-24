@@ -2,3 +2,4 @@ sudo apt update
 sudo apt install mysql-server
 sudo systemctl status mysql
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+https://learn.microsoft.com/es-es/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16&tabs=ubuntu2004
