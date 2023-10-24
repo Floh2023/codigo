@@ -3,3 +3,16 @@ sudo apt install mysql-server
 sudo systemctl status mysql
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
 https://learn.microsoft.com/es-es/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16&tabs=ubuntu2004
+× mssql-server.service - Microsoft SQL Server Database Engine
+     Loaded: loaded (/lib/systemd/system/mssql-server.service; enabled; vendor preset: enabled)
+     Active: failed (Result: exit-code) since Mon 2023-10-23 23:23:02 -03; 44s ago
+       Docs: https://docs.microsoft.com/en-us/sql/linux
+    Process: 7109 ExecStart=/opt/mssql/bin/sqlservr (code=exited, status=127)
+   Main PID: 7109 (code=exited, status=127)
+        CPU: 8ms
+
+oct 23 23:23:02 floh-NC5 systemd[1]: mssql-server.service: Scheduled restart job, restart counter is at 4.
+oct 23 23:23:02 floh-NC5 systemd[1]: Stopped Microsoft SQL Server Database Engine.
+oct 23 23:23:02 floh-NC5 systemd[1]: mssql-server.service: Start request repeated too quickly.
+oct 23 23:23:02 floh-NC5 systemd[1]: mssql-server.service: Failed with result 'exit-code'.
+oct 23 23:23:02 floh-NC5 systemd[1]: Failed to start Microsoft SQL Server Database Engine.
